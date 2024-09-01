@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Br-Architect</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+
+        .img_overlay{
+          font-size: 25px;
+          color: white;
+          position:absolute ;
+          /* z-index: 1; */
+          bottom: 300px;
+          left: 600px;
+        }
+        
+        ul {
+          list-style-type: none;
+          margin: 0;
+          z-index: 4;
+          padding: 10px;
+          overflow: hidden;
+          width: 100%;
+          position: fixed; 
+          background-color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 20px;
+        }
+        .footer_link{
+
+          text-decoration: none;
+          color: white;
+        }
+        .footer_link:hover{
+          color: green;
+        }
+        
+        li {
+          float: right;
+        }
+        
+        li a {
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration:none;
+          letter-spacing: 5px;
+          font-family: 12px;
+        }
+        li a :hover{
+          background-color: lightslategray;
+        }
+      .brand_name{
+       
+        color: #111;
+        /* font-size: 18px; */
+      }
+        p{
+            text-align:left;
+        }
+        p.normal{
+            border:2px solid lightgray;
+            padding:5px;
+        }
+                        
+        p.round1{
+        border:2px solid lightgray;
+                              border-radius:5px;
+                              padding:5px;
+                      }
+                      
+                      p.round2{
+                               border:2px solid lightgray;
+                               border-radius:5px;
+                               padding:5px;
+                      }
+                      
+                      p.round3{
+                              border: 2px solid lightgray;
+                              border-radius: 5px;
+                              padding: 5px;
+                      }
+                    
+                          .gallery{
+                            width: 300px;
+                            padding: 9px;
+                          }
+                          .container{
+                            margin: 10px 30px;
+                          }
+                          input{
+                            margin: 10px 0px;
+                            width: 99%;
+                            padding: 8px 2px;
+                            border: solid 1px gainsboro;
+                          }
+                          button{
+                            background-color:#111 ;
+                            color: white;
+                            padding: 10px 16px;
+                            margin: 10px 0px;
+                            border: none;
+                            font-size: 15px;
+                          }
+                          button:hover{
+                            background-color: gainsboro;
+                            color: black;
+                          }
+                          .carousel{
+                            height: 600px;
+                            background-image: url(br.jpg);
+                            width: 100%;
+                            
+                          }
+                          
+                          .text_1{
+                            position: absolute;
+                           left: 40px;
+                           margin-top:10px;
+                           z-index: 3;
+                          }
+                          .text_2{
+                            position: absolute;
+                           left: 345px;
+                           margin-top:10px;
+                           z-index: 3;
+                          }
+                          .text-3{
+                            position: absolute;
+                            right: 600px;
+                            margin-top: 10px;
+                            z-index: 3;
+                          }
+                          .text-4{
+                            position: absolute;
+                            right: 112px;
+                            margin-top: 10px; 
+                            z-index: 3;
+                          }
+                          .text-5{
+                            position:absolute;
+                            left: 40px;
+                            margin-top:10px;
+                            z-index: 3;
+                          }
+                          .text-6{
+                            position:absolute;
+                            left: 344px;
+                            margin-top:10px;
+                            z-index: 3;
+                          }
+                          .text-7{
+                            position:absolute;
+                            right: 600px;
+                    
+                            margin-top:10px;
+                            z-index: 3;
+                          }
+                          .text-8{
+                            position:absolute;
+                            right: 112px;
+                    
+                            margin-top:10px;
+                            z-index: 3;
+                          }
+                      </style>
+</head>
+<body>
+  <div>
+
+  </div>
+  <ul>
+    <li style="float: left;"> <a class="brand_name" href="#BR Architects"><b>BR</b> Architects</a></li>
+    
+    <div class="w3-right w3-hide-small">
+      <li><a href="#projects" class="w3-bar-item w3-button">Projects</a></li>
+      <li><a href="#about" class="w3-bar-item w3-button">About</a></li>
+      <li><a href="#contact" class="w3-bar-item w3-button">Contact</a></li>
+    </div>
+  </div>
+</div>
+      
+    </ul>
+        <!-- <div class="carousel">
+           </div> -->
+     
+     <img src="https://www.w3schools.com/w3images/architect.jpg" class="carousel" width="100% " alt="">
+     <p class="img_overlay" style="margin-top: 200px;"><span style="background-color: black; opacity: 0.9; padding: 15px; font-weight: bolder;">BR</span> Architect</p>
+
+     <div class="container">
+      <h1> Projects</h1>  
+               <hr>
+               <img class="gallery" src="house5 (1).jpg" alt=""><span class="text_1" style="background-color: #111; color: white;padding: 10px;">Summer House</span>
+                <img class="gallery" src="house2 (1).jpg" alt=""> <span class="text_2" style="background-color: #111; color: white;padding: 10px;"> Brick House</span>
+                <img class="gallery" src="house3 (1).jpg" alt=""> <span class="text-3" style="background-color: #111; color:white ;padding: 10px;">Renovated</span>
+                <img class="gallery" src="house4 (1).jpg" alt=""> <span class="text-4" style="background-color: #111; color: white;padding: 10px;">Bran House</span>
+                <img class="gallery" src="house2 (2).jpg" alt=""> <span class="text-5" style="background-color: #111; color: white;padding: 10px;"> Summer House</span>
+                <img class="gallery" src="house5.jpg" alt="""> <span class="text-6" style="background-color:#111; color: white; padding: 10px;"> Brick House</span>
+                <img class="gallery" src="house4.jpg" alt=""><span class="text-7" style="background-color:#111; color: white;padding: 10px;"> Renovated</span>
+                <img class="gallery" src="house5.jpg" alt=""><span class="text-8" style="background-color:#111; color: white;padding: 10px;"> Bran  House</span>
+    
+                <div class="container">
+      
+      
+  <h1>About</h1>
+  <hr>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, eum? Quisquam, incidunt quos,
+     placeat voluptate amet perspiciatis doloremque dignissimos aliquid tempore beatae 
+     accusantium impedit aut similique praesentium autem atque Lorem ipsum dolor sit amet 
+     consectetur adipisicing elit. Aut minima beatae laboriosam tempore voluptates provident 
+     rerum odio possimus ad officia, reprehenderit placeat doloremque molestiae soluta saepe dolor,
+      iure quod ratione!</vero></p>
+
+      <div class="cloudflare">
+
+        <div class="w3-col l3 m6 w3-margin-bottom">
+       
+        <img src="https://www.w3schools.com/w3images/team2.jpg" style="width: 90%;">
+       
+       <h3>John Doe</h3>
+       <p style="color: lightslategray;">CEO & Founder</p>
+       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+       <button style="width: 80%; padding: 9px;">Contact</button>
+       </div>
+       
+         <div class="w3-col l3 m6 w3-margin-bottom">
+        
+         <img src="https://www.w3schools.com/w3images/team1.jpg" style="width: 90%;">
+           
+       <h3>Jane Doe</h3>
+       <p style="color: lightslategray;">Architect</p>
+       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+       <button  style="width: 80%; padding: 9px;">Contact</button>
+       </div>
+       
+        <div class="w3-col l3 m6 w3-margin-bottom">
+       
+       <img src="https://www.w3schools.com/w3images/team3.jpg" style="width: 90%;">
+       
+       <h3>Mike Ross</h3>
+       <p style="color: lightslategray;">Architect</p>
+       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+       <button style="width: 80%; padding: 9px;">Contact</button>
+       </div>
+       
+         <div class="w3-col l3 m6 w3-margin-bottom">
+        
+       
+       <img src="https://www.w3schools.com/w3images/team4.jpg" style="width: 90%;">
+       <h3>Dan Star</h3>
+       <p style="color: lightslategray;">Architect</p>
+       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+       <button style="width: 80%; padding: 9px;">Contact</button>
+       </div>
+       
+       </div>
+       
+  <h1>Contact</h1>
+  <hr>
+  <p>Lets  Get in touch and talk about your next project:</p>
+
+  <form action="">
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <input type="text" placeholder="Subject">
+    <input type="text" placeholder="Comment">
+
+    <button>Send Message</button>
+  </form>
+<img width="100%" src="https://www.w3schools.com/w3images/map.jpg" alt="">
+  
+</div>
+
+<div style="margin: 0px; padding: 50px;text-align: center; background-color: black; color: white; ">Powered by <a class="footer_link" href="https://www.w3schools.com/w3css/w3css_templates.asp">W3.css</a></div>
+
+</body>
+</html>
